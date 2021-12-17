@@ -1,7 +1,5 @@
 const Manager = require('../lib/manager');
 
-jest.mock('../lib/manager');
-
 test('creates manager object', () => {
     const manager = new Manager('Eve', 32, 'eve@gmail.com', 4);
 
@@ -9,7 +7,7 @@ test('creates manager object', () => {
 });
 
 test('get role of employee', () => {
-    const manager = new manager('Eve', 32, 'eve@gmail.com');
+    const manager = new Manager('Eve', 32, 'eve@gmail.com');
 
-    expect(manager.getRole().toEqual('Manager'));
+    expect(manager.getRole()).toEqual('Manager');
 });

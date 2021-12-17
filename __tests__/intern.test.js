@@ -1,7 +1,5 @@
 const Intern = require('../lib/intern');
 
-jest.mock('../lib/intern');
-
 test('creates intern object', () => {
     const intern = new Intern('Jane', 74, 'Jane@gmail.com', 'SDSU');
 
@@ -17,5 +15,5 @@ test('get intern school value', () => {
 test('get role of employee', () => {
     const intern = new Intern('Jane', 74, 'Jane@gmail.com', 'SDSU');
 
-    expect(intern.getRole().toEqual('Intern'));
+    expect(intern.getRole()).toEqual('Intern');
 });
