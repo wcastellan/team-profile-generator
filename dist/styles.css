@@ -28,5 +28,14 @@ body {
     color: var(--tertiary);
 }
 
+.card-body {
+    background-color: var(--tertiary);
+    columns: var(--quaternary);
+}
 
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
 

@@ -1,7 +1,5 @@
 const Employee = require('../lib/employee');
 
-jest.mock('../lib/employee');
-
 test('creates an employee object', () => {
     const employee = new Employee('David', 1, 'david@gmail.com');
 

@@ -1,7 +1,5 @@
 const Engineer = require('../lib/engineer');
 
-jest.mock('../lib/engineer');
-
 test('creates engineer object', () => {
     const engineer = new Engineer('Adam', 25, 'adam@gmail.com', 'adamG08');
 
@@ -17,5 +15,5 @@ test('get engineer github value', () => {
 test('get role of employee', () => {
     const engineer = new Engineer('Adam', 25, 'adam@gmail.com', 'adamG08');
 
-    expect(engineer.getRole().toEqual('Engineer'));
+    expect(engineer.getRole()).toEqual('Engineer');
 });
