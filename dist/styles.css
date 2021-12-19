@@ -2,20 +2,13 @@
     box-sizing: border-box;
 }
 
-:root {
-    --primary: red;
-    --secondary: blue;
-    --tertiary: lightgray;
-    --quaternary: white;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#navbar {
-    background-color: var(--primary);
-    color: var(--quaternary);
+.navbar {
+    background-color: red;
+    color: white;
     font-size: 50px;
 }
 
@@ -24,13 +17,18 @@ body {
 }
 
 .card-header {
-    background-color: var(--secondary);
-    color: var(--tertiary);
+    background-color: blue;
+    color: white;
 }
 
 .card-body {
-    background-color: var(--tertiary);
-    columns: var(--quaternary);
+    background-color: whitesmoke;
+    color: black;
+}
+
+.card-body p {
+    background-color: white;
+    margin-bottom: 0;
 }
 
 .container {
