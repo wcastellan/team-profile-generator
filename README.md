@@ -18,7 +18,7 @@
   The user should clone the repository and make sure that Node is installed on their device.  This application also requires a file system and the Inquirer module.  If they are going to test anything, they should also install jest.
 
   ## Usage:
-  Use 'node app.js' and answer the prompted questions.  You can view a walk through video here - [Screencastify]()
+  Use 'node app.js' and answer the prompted questions.  You can view a walk through video here - [Screencastify](https://drive.google.com/file/d/14mCf71nHp3zhiuUitgQYIFh_-yAFOakA/view?usp=sharing)<br><img src="./images/sample-image.PNG">
 
   ## License:
   MIT
