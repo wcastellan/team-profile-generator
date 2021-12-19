@@ -33,7 +33,7 @@ const generateEngineer = function(engineer) {
             <div class="card-body">
                 <p class="id">ID: ${engineer.id}</p>
                 <p class="email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-                <p class="github">GitHub: <a href="https://github.com/${engineer.github}">${engine.github}</a></p>
+                <p class="github">GitHub: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@ const generateIntern = function(intern) {
             </div>
             
             <div class="card-body">
-                <p class="id>ID: ${intern.id}</p>
+                <p class="id">ID: ${intern.id}</p>
                 <p class="email">Email: <a href="mailto:${intern.email}">${intern.email}</a></p>
                 <p class="school">School: ${intern.school}</p>
             </dvi>
@@ -115,7 +115,7 @@ const generateTeamPage = function(employeeCards) {
       <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="styles.css">
     </head>
     <body>
       <header>
